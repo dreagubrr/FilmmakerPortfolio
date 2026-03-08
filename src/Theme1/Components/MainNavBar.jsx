@@ -67,24 +67,24 @@ export default function MainNavBar() {
 
         <div className='links'>
           <div className='Logo-sidebar Logo-sidebar-active'><Link to='/'><img src={logo}></img></Link></div>
-          <div className='links-mobile'><a href="/">Home</a>
-            <Link  to="/Videos">Filmmaking</Link>
-            <Link to="/Photos">Photography</Link>
+          <div className='links-mobile'><a href="/">Inicio</a>
+            <Link  to="/Videos">Videos</Link>
+            <Link to="/Photos">Fotografía</Link>
         
        
-            <Link to="/Contact">Contact</Link></div>
+            <Link to="/Contact">Contacto</Link></div>
           <div className='contact-mobile'>
-            <a href="mailto:#" className="link-body">hello@noaman.info</a>
-            <p> +212 6 26 85 94 49 </p>
+            <a href="mailto:#" className="link-body">itsxsacold@gmail.com</a>
+            <p> +34 620 24 43 06 </p>
             <div className='socail-icons-mobile'>
-              <a href='https://www.instagram.com/noamaane/' target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+              <a href='https://www.instagram.com/itsxsa_cold/' target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
             </div>
           </div>
         </div>
         <div onClick={toggleModal} className='blure-navbar'></div>
         <div className='socail-icons'>
         
-          <a className='icon-navbar-mobile-ig' href='https://www.instagram.com/noamaane/' target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+          <a className='icon-navbar-mobile-ig' href='https://www.instagram.com/itsxsa_cold/' target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
           <div className="hamburger-menu" onClick={toggleModal} id="btnMobile">
             <div id='bar1' className="bar-top"></div>
             <div id='bar2' className="bar-middle "></div>
