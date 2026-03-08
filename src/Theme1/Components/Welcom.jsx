@@ -6,7 +6,6 @@ export default function Welcom() {
 
   <h1 className='animate__animated animate__zoomIn'>Isabel Huerta</h1>
 
-  // <div className='btnWelecom animate__animated animate__zoomIn'> 
   // <button className='Photos' ><a href='#Photos'>Photography</a></button>
   // <button className='Videos'><a  href='#Videos'>Filmmaking</a></button>
 
