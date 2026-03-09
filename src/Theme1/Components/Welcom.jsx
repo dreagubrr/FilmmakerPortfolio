@@ -13,8 +13,8 @@ export default function Welcom() {
   return (
   <section className='seactin-welcom' id='Home'>  
     <div className='handwrite'>
-      <p className='animate__animated animate__zoomIn'>Isabel Huerta</p>
-      <p className='portfolio-text animate__animated animate__zoomIn'>Portfolio</p>
+      <p className='animate__animated animate__zoomIn'>Portfolio</p>
+      <p className='portfolio-text animate__animated animate__zoomIn'>Isabel Huerta</p>
     </div>
     <div className="btn-welecom">
       <Link to='/Videos'>Videos</Link>
