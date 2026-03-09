@@ -4,7 +4,7 @@ import '../style/welcom.css'
 
 export default function Welcom() {
 
-  <h1 className='animate__animated animate__zoomIn'>Isabel Huerta</h1>
+  <h3 className='animate__animated animate__zoomIn'>Isabel Huerta</h3>
 
   // <button className='Photos' ><a href='#Photos'>Photography</a></button>
   // <button className='Videos'><a  href='#Videos'>Filmmaking</a></button>
