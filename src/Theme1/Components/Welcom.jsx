@@ -16,10 +16,6 @@ export default function Welcom() {
       <p className='portfolio-text animate__animated animate__zoomIn'>Portfolio</p>
       <p className='nombre animate__animated animate__zoomIn'>Isabel Huerta</p>
     </div>
-    <div className="btn-welecom">
-      <Link to='/Videos'>Videos</Link>
-      <Link to='/Photos'>Fotos</Link>
-    </div>
   </section>
 )
 }
