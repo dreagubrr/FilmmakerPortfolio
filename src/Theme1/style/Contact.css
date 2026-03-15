@@ -303,6 +303,10 @@ margin: 0 10px;
     }
 
     @media (max-width:991px) {
+
+        .contact .card {
+        margin: 0 15px;
+    }
         .all-works h1{
 
     

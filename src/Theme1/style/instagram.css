@@ -95,6 +95,10 @@ font-size: 1.2rem;
 
 @media (max-width:991px) {
 
+    .instagram .card {
+    margin: 0 15px;
+}
+
 .img-ig{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
