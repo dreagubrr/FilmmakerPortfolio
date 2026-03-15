@@ -90,9 +90,8 @@ font-weight: 500;
 
 .contact-subcol2{
     flex-basis: 55%;
-    background: rgba(10, 11, 15, 0.2);
+    background:transparent;
 }
-
 /* //text on left */
 .contact-subcol1 .text2{
     display: flex;
@@ -197,13 +196,6 @@ text-align: start;
     padding: 0px;
 
 }
-.text2 .text2-1.p{
-
-   
-}
-
-
-
 
 /* /// icons contact */
 
