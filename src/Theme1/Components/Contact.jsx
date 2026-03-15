@@ -91,19 +91,19 @@ export default function Contact() {
 
           className='contact-subcol1'>
           <div className='text1'>
-            <h1>Get in Touch ✨</h1>
-            <p>I’m always open to collaborate on a project or hear about an opportunity!</p>
+            <h1>Trabajemos juntos</h1>
+            <p>Siempre estoy abierta a colaborar en un proyecto o conocer nuevas oportunidades</p>
           </div>
           <div className='text2'>
-            <div className='text2-1'> <p>WANT TO CALL ME?</p> <p>Schedule a call with me</p></div>
+            <div className='text2-1'> <p>¿Tienes un proyecto en mente? Hablemos!</p> <p>Agenda una llamada conmigo</p></div>
 
-            <div className='text2-2'> <p>JUST WANT TO EMAIL ME?</p> <p>hello@noaman.info</p></div>
+            <div className='text2-2'> <p>No dudes en escribirme</p> <p>itsxsacold@gmail.com</p></div>
           </div>
           <div className='icons-contact'>
         
-            <a className='social-links-contact' target='_blank' href='https://www.instagram.com/noamaane/'><i class="fa-brands fa-linkedin"> </i></a>
-            <a className='social-links-contact' target='_blank' href='https://www.instagram.com/noamaane/'><i class="fa-brands fa-square-instagram"> </i></a>
-            <a className='social-links-contact' target='_blank' href='https://www.instagram.com/noamaane/'><i class="fa-brands fa-youtube"> </i></a>
+            <a className='social-links-contact' target='_blank' href='https://www.instagram.com/itsxsa_cold/'><i class="fa-brands fa-linkedin"> </i></a>
+            <a className='social-links-contact' target='_blank' href='https://www.instagram.com/itsxsa_cold/'><i class="fa-brands fa-square-instagram"> </i></a>
+            <a className='social-links-contact' target='_blank' href='https://www.instagram.com/itsxsa_cold/'><i class="fa-brands fa-youtube"> </i></a>
           
 
           </div>
@@ -117,19 +117,19 @@ export default function Contact() {
           <form className='form' onSubmit={handleSubmit}>
           {isMsgSent?<div className='msgSent animate__animated animate__shakeX'> <h3>Done! We will contact you as soon as possible.</h3></div>:null}
             <>
-              <input name='name' type='text' placeholder='Full Name' onChange={handelName}></input>
+              <input name='name' type='text' placeholder='Nombre y apellido' onChange={handelName}></input>
               {error && fullName.length <= 0 ?
-                <label className='errorMSG animate__animated animate__shakeX'>First Name can't be Empty</label> : ""}
+                <label className='errorMSG animate__animated animate__shakeX'>Este campo es obligatorio.</label> : ""}
             </>
             <>
-              <input name='Email' type='email' placeholder='Email' onChange={handelEmail}></input>
+              <input name='Email' type='email' placeholder='Correo Electrónico' onChange={handelEmail}></input>
               {error && email.length <= 0 ?
-                <label className='errorMSG animate__animated animate__shakeX'>Email can't be Empty</label> : ""}
+                <label className='errorMSG animate__animated animate__shakeX'>Este campo es obligatorio.</label> : ""}
             </>
             <>
-              <textarea name='message' placeholder='Type your message' onChange={handelMsg}></textarea>
+              <textarea name='message' placeholder='Escribe tu mensaje' onChange={handelMsg}></textarea>
               {error && msg.length <= 8 ?
-                <label className='errorMSG animate__animated animate__shakeX'>Message can't be Empty Or less Then 8 Characters</label> : ""}
+                <label className='errorMSG animate__animated animate__shakeX'>Este campo es obligatorio y no puede contener menos de 8 carácteres.</label> : ""}
             </>
             <input className='submit-btn' type='submit'></input>
           </form>
