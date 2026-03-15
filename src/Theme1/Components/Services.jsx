@@ -13,7 +13,7 @@ export default function Services() {
     <div className='card-body'>
   <div className='text-body'>
 
-  <div><h3>Servicios</h3>
+  <div><h2>Servicios</h2>
   <h4></h4>
   </div>
 
@@ -23,24 +23,23 @@ export default function Services() {
   <div className='services-item'>
   <i className="fa-solid fa-film"></i>
   <div className='text-services'>
-  <h4>Producción de video</h4>
-  
+    <Link to='/Videos'><h4>Producción de video</h4></Link>
   </div>
-  </div>
+</div>
 
  <div className='services-item'>
- <i className="fa-solid fa-wand-magic-sparkles"></i>
- <div className='text-services'>
- <h4>Diseño</h4>
- </div>
- </div>
+  <i className="fa-solid fa-wand-magic-sparkles"></i>
+  <div className='text-services'>
+    <h4>Diseño</h4>
+  </div>
+</div>
 
  <div className='services-item'>
- <i className="fa-regular fa-image"></i> 
- <div className='text-services'>
- <h4>Fotografía</h4>
- </div>
- </div>
+  <i className="fa-regular fa-image"></i> 
+  <div className='text-services'>
+    <Link to='/Photos'><h4>Fotografía</h4></Link>
+  </div>
+</div>
 
   </div>
   </div>
