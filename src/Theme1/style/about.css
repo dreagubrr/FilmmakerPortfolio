@@ -1,7 +1,8 @@
 .about{
-    padding-top: 75px; margin-top: 75px;
+    padding-top: 50px;
+    margin-top: 50px;
     height: auto;
-    margin-bottom: 205px;
+    margin-bottom: 50px;
 }
 .about .card {
 padding: 30px;
@@ -20,6 +21,7 @@ border-radius: 15px !important;
   }
  .about .card-body{
     position: relative;
+    padding: 40px;
     height: auto !important;
   }
 

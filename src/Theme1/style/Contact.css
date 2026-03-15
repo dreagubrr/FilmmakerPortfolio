@@ -1,6 +1,8 @@
 
 .contact{
     padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .contact-col1{
@@ -173,7 +175,7 @@ text-align: start;
   font-style: normal;
   font-weight: 500;
 color: white;
-font-size: 11px;
+font-size: 14px;
 letter-spacing: -1px;
 text-transform: none;
 text-decoration: none;
