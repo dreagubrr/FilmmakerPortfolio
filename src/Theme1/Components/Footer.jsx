@@ -7,7 +7,7 @@ export default function Footer() {
     <div className='card-body'>
     
 
-© 2022 Noaman El Garrab. All rights reserved.
+© 2026 dreagubr. All rights reserved.
 
     </div>
     </div>
