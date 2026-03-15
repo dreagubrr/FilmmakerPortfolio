@@ -13,7 +13,7 @@ export default function Instgram() {
 <div className='card'>
 <div className='card-body'>
 
-<div> <h3>Follow Me on instagram</h3> </div>
+<div> <h3>Sígueme en Instagram</h3> </div>
 <div className='img-ig'> 
 
 <img loading='lazy' src={img1}></img>
@@ -22,7 +22,7 @@ export default function Instgram() {
 <img loading='lazy' src={img4}></img>
 
 </div>
-<a href='https://www.instagram.com/noamaane/' target="_blank" rel="noopener noreferrer" className='btn-ig'><i class="fa-brands fa-instagram"></i>Follow</a>
+<a href='https://www.instagram.com/itsxsa_cold/' target="_blank" rel="noopener noreferrer" className='btn-ig'><i class="fa-brands fa-instagram"></i>Seguir</a>
 </div>
 </div>
 
